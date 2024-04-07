@@ -1,0 +1,53 @@
+body {
+  /* Utilizar Flexbox para centrar los elementos */
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+}
+
+#Calculadora {
+    width: 35%; 
+    max-width: 1000px;
+    background-color: black;
+    border-radius: 5%;
+}
+  
+#valor_numero {
+    margin-top: 25px;
+}
+  
+#Calculadora div {
+    margin-bottom: 10px;
+}
+  
+#idlog { 
+  width: 35%; 
+  max-width: 1000px;
+  background-color: black;
+  border-radius: 5%;
+}
+
+#reset{
+  margin:25px;
+}
+
+#operaciones-log {
+  text-align: center;
+  margin: 25px;
+  color: aliceblue;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
